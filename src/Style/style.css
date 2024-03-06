@@ -162,6 +162,10 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
+:where(.css-1drr2mu).ant-card .ant-card-body {
+    padding: 0;
+}
+
 .card:hover {
     box-shadow: none !important;
 }
