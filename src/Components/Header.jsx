@@ -3,7 +3,7 @@ import { Layout, Typography } from 'antd';
 import { IoMoon, IoMoonOutline } from "react-icons/io5";
 
 export default function Header() {
-  const [mode, setMode] = useState(JSON.parse(localStorage.getItem("mode") == "light") ? true : false)
+  const [mode, setMode] = useState(JSON.parse(localStorage.getItem("mode") == "dark") ? false : true)
 
   const changeMode = () => {
     if (localStorage.getItem("mode") === "dark") {
